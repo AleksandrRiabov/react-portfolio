@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import { createBrowserRouter, createRoutesFromElements, RouterProvider, Outlet, Link, Route } from "react-router-dom";
+import HomePage from './pages/HomePage';
+import ProjectsPage from './pages/ProjectsPage';
+import ContactPage from './pages/ContactPage';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import NotFound from "./pages/NotFound";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Root />}>
+        <Route path="/" index element={<HomePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        
+        <Route path='*' element={<NotFound />} />
+      </Route>
+    )
+  )
+
+  return <RouterProvider router={router} />
 }
 
-export default App;
+const Root = () => {
+  return (
+    <>
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Outlet />
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </>
+  )
+}
+
+export default App
