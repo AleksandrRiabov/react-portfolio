@@ -15,6 +15,9 @@ const Header = () => {
             <LinkContainer to='/'>
               <Nav.Link className='color-custom-light' >Home</Nav.Link>
             </LinkContainer>
+            <LinkContainer to='/projects'>
+              <Nav.Link className='color-custom-light' >Projects</Nav.Link>
+            </LinkContainer>
             <LinkContainer to='/contact'>
               <Nav.Link className='color-custom-light' >Contact</Nav.Link>
             </LinkContainer>
