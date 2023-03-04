@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Movies App",
+    "description": "React application that utilizes a real API to display movies from The Movie Database (TMDB). This app allows users to browse through a wide selection of movies and filter them by various criteria such as popularity, genres, and release date. Users can also view detailed information about each movie, including its trailers, reviews, and recommendations.",
+    "stack": ["HTML", "CSS", " MaterialUI", "React", "TheMovieDB API"],
+    "links": {
+      "github": "https://github.com/AleksandrRiabov/movies", "deployed": "https://aleksandrriabov.github.io/movies"},
+      "images": { "main": "https://user-images.githubusercontent.com/61385379/214215639-1d746f56-4902-4761-9549-48982168e5d6.png" }
+    },
+  {
+    "id": 2,
+    "name": "Export Planning Tool",
+    "description": "Export Planning Tool is designed to simplify process of estimating the required number of trailers for a specific day of the week. All estimates are based on the average of the five previous weeks, or specific days of the week. With app charts, you can easily identify seasonal order spikes, and prepare for the growing demand.",
+    "stack": ["HTML", "CSS", "MaterialUI", "React", "ChartJS", "Moment.JS", "Heroku", "React Count Up"],
+    "links": {
+      "github": "https://github.com/AleksandrRiabov/fs-planning-tool", "deployed": "https://guarded-savannah-03210.herokuapp.com/"
+    },
+    "images": { "main": "https://user-images.githubusercontent.com/61385379/213078370-f39f027b-a2dd-4dd1-a6d3-16cb4d0186b3.png" }
+  },
+  {
+    "id": 1,
+    "name": "Movies App",
+    "description": "React application that utilizes a real API to display movies from The Movie Database (TMDB). This app allows users to browse through a wide selection of movies and filter them by various criteria such as popularity, genres, and release date. Users can also view detailed information about each movie, including its trailers, reviews, and recommendations.",
+    "stack": ["HTML", "CSS", " MaterialUI", "React", "TheMovieDB API"],
+    "links": {
+      "github": "https://github.com/AleksandrRiabov/movies", "deployed": "https://aleksandrriabov.github.io/movies"},
+      "images": { "main": "https://user-images.githubusercontent.com/61385379/214215639-1d746f56-4902-4761-9549-48982168e5d6.png" }
+    },
+  {
+    "id": 2,
+    "name": "Export Planning Tool",
+    "description": "Export Planning Tool is designed to simplify process of estimating the required number of trailers for a specific day of the week. All estimates are based on the average of the five previous weeks, or specific days of the week. With app charts, you can easily identify seasonal order spikes, and prepare for the growing demand.",
+    "stack": ["HTML", "CSS", "MaterialUI", "React", "ChartJS", "Moment.JS", "Heroku", "React Count Up"],
+    "links": {
+      "github": "https://github.com/AleksandrRiabov/fs-planning-tool", "deployed": "https://guarded-savannah-03210.herokuapp.com/"
+    },
+    "images": { "main": "https://user-images.githubusercontent.com/61385379/213078370-f39f027b-a2dd-4dd1-a6d3-16cb4d0186b3.png" }
+  },
+  {
+    "id": 1,
+    "name": "Movies App",
+    "description": "React application that utilizes a real API to display movies from The Movie Database (TMDB). This app allows users to browse through a wide selection of movies and filter them by various criteria such as popularity, genres, and release date. Users can also view detailed information about each movie, including its trailers, reviews, and recommendations.",
+    "stack": ["HTML", "CSS", " MaterialUI", "React", "TheMovieDB API"],
+    "links": {
+      "github": "https://github.com/AleksandrRiabov/movies", "deployed": "https://aleksandrriabov.github.io/movies"},
+      "images": { "main": "https://user-images.githubusercontent.com/61385379/214215639-1d746f56-4902-4761-9549-48982168e5d6.png" }
+    },
+  {
+    "id": 2,
+    "name": "Export Planning Tool",
+    "description": "Export Planning Tool is designed to simplify process of estimating the required number of trailers for a specific day of the week. All estimates are based on the average of the five previous weeks, or specific days of the week. With app charts, you can easily identify seasonal order spikes, and prepare for the growing demand.",
+    "stack": ["HTML", "CSS", "MaterialUI", "React", "ChartJS", "Moment.JS", "Heroku", "React Count Up"],
+    "links": {
+      "github": "https://github.com/AleksandrRiabov/fs-planning-tool", "deployed": "https://guarded-savannah-03210.herokuapp.com/"
+    },
+    "images": { "main": "https://user-images.githubusercontent.com/61385379/213078370-f39f027b-a2dd-4dd1-a6d3-16cb4d0186b3.png" }
+  }
+]
+
