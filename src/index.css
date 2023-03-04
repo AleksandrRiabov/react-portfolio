@@ -11,3 +11,146 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+:root {
+  --primary-color: #0F4C75;
+  --secondary-color: #3282b8;
+  --dark-color: #1B262C;
+  --light-color: #bbe1fa;
+  --bs-primary: red;
+}
+
+
+.bg-custom-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-custom-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-custom-dark {
+  background-color: var(--dark-color);
+}
+
+.bg-custom-light {
+  background-color: var(--light-color);
+}
+
+
+.color-custom-primary {
+  color: var(--primary-color);
+}
+
+
+.color-custom-secondary {
+  color: var(--secondary-color);
+}
+
+.color-custom-dark {
+  color: var(--dark-color);
+}
+
+.color-custom-light {
+  color: var(--light-color);
+}
+
+.navbar-brand,
+.nav-text {
+  color: var(--light-color);
+}
+
+
+
+.page {
+  background-color: var(--primary-color);
+  min-height: 90vh;
+}
+
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero-title {
+  margin: 50px 0 70px;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+}
+
+.stack-title {
+  padding-top: 50px;
+}
+
+.hero-left-stack-logos {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.hero-left-stack-logos img {
+  width: 100px;
+  padding: 1rem;
+}
+
+.homepage-avatar {
+  width: 90%;
+  z-index: 10;
+}
+
+.hero-right::before {
+  content: "";
+  width: 35%;
+  height: 35%;
+  max-width: 200px;
+  max-height: 200px;
+  right: 0;
+  border-radius: 50%;
+  opacity: 0.9;
+  background: url(./assets/images/moon.png) no-repeat 0 0;
+  background-size: 100%;
+  position: absolute;
+  z-index: 1;
+  animation: moon;
+  animation-duration: 5s;
+  transition: ease;
+}
+
+@keyframes moon {
+  from {
+    width: 20%;
+    height: 20%;
+    right: 90%;
+    top: 30%;
+    opacity: 0;
+  }
+
+  to {
+    width: 35%;
+    height: 35%;
+    right: 0;
+    top: 0;
+  }
+}
+
+
+
+.footer {
+  background-color: var(--dark-color);
+  min-height: 250px;
+}
