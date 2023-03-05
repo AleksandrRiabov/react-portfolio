@@ -6,7 +6,7 @@
     "stack": ["HTML", "CSS", " MaterialUI", "React", "TheMovieDB API"],
     "links": {
       "github": "https://github.com/AleksandrRiabov/movies", "deployed": "https://aleksandrriabov.github.io/movies"},
-      "images": { "main": "https://user-images.githubusercontent.com/61385379/214215639-1d746f56-4902-4761-9549-48982168e5d6.png" }
+      "images": { "main": "https://user-images.githubusercontent.com/61385379/214215842-1bb273f6-77ed-453d-b527-c9c73eb9e8ab.png" }
     },
   {
     "id": 2,
@@ -19,16 +19,16 @@
     "images": { "main": "https://user-images.githubusercontent.com/61385379/213078370-f39f027b-a2dd-4dd1-a6d3-16cb4d0186b3.png" }
   },
   {
-    "id": 1,
-    "name": "Movies App",
+    "id": 3,
+    "name": "Cryptoverse",
     "description": "React application that utilizes a real API to display movies from The Movie Database (TMDB). This app allows users to browse through a wide selection of movies and filter them by various criteria such as popularity, genres, and release date. Users can also view detailed information about each movie, including its trailers, reviews, and recommendations.",
     "stack": ["HTML", "CSS", " MaterialUI", "React", "TheMovieDB API"],
     "links": {
       "github": "https://github.com/AleksandrRiabov/movies", "deployed": "https://aleksandrriabov.github.io/movies"},
-      "images": { "main": "https://user-images.githubusercontent.com/61385379/214215639-1d746f56-4902-4761-9549-48982168e5d6.png" }
+      "images": { "main": "https://user-images.githubusercontent.com/61385379/214723854-45d13e1a-1db4-4651-acfd-35686a77758b.png" }
     },
   {
-    "id": 2,
+    "id": 4,
     "name": "Export Planning Tool",
     "description": "Export Planning Tool is designed to simplify process of estimating the required number of trailers for a specific day of the week. All estimates are based on the average of the five previous weeks, or specific days of the week. With app charts, you can easily identify seasonal order spikes, and prepare for the growing demand.",
     "stack": ["HTML", "CSS", "MaterialUI", "React", "ChartJS", "Moment.JS", "Heroku", "React Count Up"],
@@ -38,7 +38,7 @@
     "images": { "main": "https://user-images.githubusercontent.com/61385379/213078370-f39f027b-a2dd-4dd1-a6d3-16cb4d0186b3.png" }
   },
   {
-    "id": 1,
+    "id": 5,
     "name": "Movies App",
     "description": "React application that utilizes a real API to display movies from The Movie Database (TMDB). This app allows users to browse through a wide selection of movies and filter them by various criteria such as popularity, genres, and release date. Users can also view detailed information about each movie, including its trailers, reviews, and recommendations.",
     "stack": ["HTML", "CSS", " MaterialUI", "React", "TheMovieDB API"],
@@ -47,7 +47,7 @@
       "images": { "main": "https://user-images.githubusercontent.com/61385379/214215639-1d746f56-4902-4761-9549-48982168e5d6.png" }
     },
   {
-    "id": 2,
+    "id": 6,
     "name": "Export Planning Tool",
     "description": "Export Planning Tool is designed to simplify process of estimating the required number of trailers for a specific day of the week. All estimates are based on the average of the five previous weeks, or specific days of the week. With app charts, you can easily identify seasonal order spikes, and prepare for the growing demand.",
     "stack": ["HTML", "CSS", "MaterialUI", "React", "ChartJS", "Moment.JS", "Heroku", "React Count Up"],
