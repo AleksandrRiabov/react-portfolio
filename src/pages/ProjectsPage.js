@@ -11,8 +11,9 @@ const ProjectsPage = () => {
   return (
     <Container fluid className="page">
       <Container >
-        <div>
-          <h1>Have a look on some of my works</h1>
+        <div className="projects-header">
+          <h1 className="projects-title">My Portfolio</h1>
+          <p>See my works below. Unless explicitly stated otherwise, all their back-end and front-end parts were completely done by me..</p>
         </div>
         <section className="projects-wrapper row gx-5">
           {projects}

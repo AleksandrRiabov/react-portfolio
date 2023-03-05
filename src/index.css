@@ -66,6 +66,7 @@ code {
 .page {
   background-color: var(--primary-color);
   min-height: 90vh;
+  overflow: hidden;
 }
 
 
@@ -153,16 +154,58 @@ code {
 
 
 /* ================  PROJCETS =============== */
+
+
+
+.projects-header {
+  color: var(--light-color);
+  padding-top: 50px;
+}
+
 .projects-wrapper {
   padding: 50px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
+  position: relative;
+  z-index: 2;
 }
 
+.projects-wrapper::after {
+  content: '';
+  background-color: var(--secondary-color);
+  height: 86%;
+  width: 120%;
+  left: -15%;
+  top: 5%;
+  position: absolute;
+  clip-path: polygon(0 0, 99% 32%, 96% 66%, 0% 100%);
+  z-index: 1;
+}
+
+.card {
+  z-index: 5;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-content::after {
+  content: '';
+  background-color: var(--light-color);
+  height: 10%;
+  width: 100%;
+  left: 0;
+  top: -9%;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);
+}
+
+/* ================== Single Project =============== */
 
 .footer {
   background-color: var(--dark-color);
   min-height: 250px;
+  z-index: 5;
 }
