@@ -1,7 +1,7 @@
 import { Button, Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import data from '../data.json';
-
+import { Github, BrowserChrome } from 'react-bootstrap-icons';
 
 const Project = () => {
   const { id } = useParams();
@@ -9,7 +9,7 @@ const Project = () => {
 
   return (
     <Container fluid className='page'>
-      <Container>
+      <Container className='project-container'>
         <h1 className='project-title'>{name}</h1>
         <div className='project-wrapper'>
 
@@ -33,8 +33,8 @@ const Project = () => {
               {stack.map(tech => <li>{tech}</li>)}
             </div>
             <div>
-              <div className='project-link-box'> <span>GitHub:</span> <a href={links.github}>Go To GitHub Repo</a></div>
-              <div className='project-link-box'> <span>Deployed page:</span> <a href={links.deployed}>Go To Deployed Page</a></div>
+              <div className='project-link-box'> <Github /> <a href={links.github}>Go To GitHub Repo</a></div>
+              <div className='project-link-box'> <BrowserChrome /> <a href={links.deployed}>Go To Deployed Page</a></div>
             </div>
           </div>
 
