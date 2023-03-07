@@ -306,10 +306,28 @@ code {
     padding-top: 20px;
   }
 }
+
+/* =============  Contacts =============== */
+.contact-form {
+  width: 60%;
+
+}
+
+
+
 /* ================= Footer ================ */
 
 .footer {
   background-color: var(--dark-color);
-  min-height: 250px;
   z-index: 5;
+  padding: 40px 0 20px;
+}
+
+.footer-link {
+  text-align: center;
+  color: var(--light-color);
+}
+
+.footer-bottom {
+  margin-top: 40px;
 }
