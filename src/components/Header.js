@@ -4,14 +4,14 @@ import cv from '../assets/Aleksandr_Riabov_CV.pdf';
 
 const Header = () => {
   return (
-    <Navbar className="bg-custom-primary" expand="md">
+    <Navbar className="bg-custom-primary " expand="md">
       <Container >
         <LinkContainer to='/'>
           <Navbar.Brand >Aleksandr Riabov</Navbar.Brand>
         </LinkContainer>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto ">
+        <Navbar.Toggle aria-controls="basic-navbar-nav "  />
+        <Navbar.Collapse id="basic-navbar-nav " >
+          <Nav className="ms-auto color-custom-light">
             <LinkContainer to='/'>
               <Nav.Link className='color-custom-light' >Home</Nav.Link>
             </LinkContainer>

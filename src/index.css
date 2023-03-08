@@ -38,7 +38,6 @@ code {
   background-color: var(--light-color);
 }
 
-
 .color-custom-primary {
   color: var(--primary-color);
 }
@@ -61,6 +60,9 @@ code {
   color: var(--light-color);
 }
 
+.navbar-toggler {
+  background-color: var(--light-color);
+}
 
 
 .page {
