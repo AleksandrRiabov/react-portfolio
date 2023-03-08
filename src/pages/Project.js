@@ -1,11 +1,14 @@
-import { Button, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import data from '../data.json';
 import { Github, BrowserChrome } from 'react-bootstrap-icons';
 
 const Project = () => {
+  //Scroll up every time loading project page
+  window.scroll(0, 0);
+
   const { id } = useParams();
-  const { name, description, stack, links, images } = data.find(project => project.id == id);
+  const { name, description, stack, links, images } = data.find(project => project.id.toString() === id);
 
   return (
     <Container fluid className='page'>

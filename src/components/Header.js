@@ -21,7 +21,7 @@ const Header = () => {
             <LinkContainer to='/contact'>
               <Nav.Link className='color-custom-light' >Contact</Nav.Link>
             </LinkContainer>
-            <Nav.Link className='color-custom-light' href={cv}>Resume</Nav.Link>
+            <Nav.Link className='color-custom-light' download href={cv}>Download Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
