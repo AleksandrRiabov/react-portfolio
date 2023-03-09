@@ -4,9 +4,7 @@ import data from '../data.json';
 
 const ProjectsPage = () => {
 
-
   const projects = data.map(project => <ProjectCard key={project.id} project={project} />);
-
 
   return (
     <Container fluid className="page">

@@ -16,7 +16,10 @@ const HomePage = () => {
       <Container className="homePage">
         <div className="hero">
           <div className="hero-left color-custom-light">
-            <h1 className="hero-title">Welcome To My Portfolio</h1>
+           <div className="d-flex align-items-center">
+           <h1 className="hero-title">Welcome To My Portfolio</h1>
+            <div className="mobile-avatar"><img src="https://avatars.githubusercontent.com/u/61385379?v=4"/></div>
+           </div>
             <p className="hero-subtitle">I'm Web Developer with a strong foundation in JavaScript and React. Driven to gain hands-on experience in the web and software development industry and contribute my technical skills to create innovative and user-friendly solutions. </p>
             <div className="hero-left-stack">
               <h4 className="stack-title">Technologies I use in my projects</h4>

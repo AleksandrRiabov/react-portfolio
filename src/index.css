@@ -64,6 +64,10 @@ code {
   background-color: var(--light-color);
 }
 
+.nav-link>.active {
+  color: red !important;
+}
+
 
 .page {
   background-color: var(--primary-color);
@@ -86,14 +90,19 @@ code {
   display: flex;
   flex-direction: column;
   position: relative;
+  z-index: 2;
 }
 
 .hero-title {
   margin: 50px 0 70px;
+  position: relative;
+  z-index: 9;
 }
 
 .hero-subtitle {
   font-size: 1.3rem;
+  position: relative;
+  z-index: 9;
 }
 
 .stack-title {
@@ -101,9 +110,24 @@ code {
 }
 
 .hero-left-stack-logos {
-  padding-top: 30px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.hero-left-stack-logos::after {
+  content: '';
+  top: 0;
+  right: 0;
+  left: -100%;
+  bottom: 0;
+  width: 200%;
+  height: 100%;
+  background-color: var(--secondary-color);
+  position: absolute;
+  z-index: -1;
+  clip-path: polygon(0% 0%, 97% 0, 100% 50%, 97% 100%, 0% 100%);
 }
 
 
@@ -115,6 +139,10 @@ code {
 .homepage-avatar {
   width: 90%;
   z-index: 10;
+}
+
+.mobile-avatar {
+  display: none;
 }
 
 .hero-right::before {
@@ -154,7 +182,47 @@ code {
 }
 
 
+@media screen and (max-width: 1200px) {
+  .hero-right {
+    display: none;
+  }
 
+  .mobile-avatar {
+    display: block;
+    width: 60%;
+    height: 60%;
+    max-width: 130px;
+    min-height: 130px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .mobile-avatar img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .mobile-avatar::after {
+    content: '';
+    top: -50%;
+    right: 0;
+    left: -80%;
+    bottom: 0;
+    width: 500%;
+    height: 200%;
+    background-color: var(--secondary-color);
+    position: absolute;
+    z-index: -1;
+    clip-path: polygon(7% 0%, 100% 0%, 100% 100%, 7% 100%, 0% 50%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-title {
+    margin: 20px 0;
+  }
+}
 
 /* ================  PROJCETS =============== */
 
