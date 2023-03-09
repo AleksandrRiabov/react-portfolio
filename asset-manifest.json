@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/github.io/react-portfolio/static/css/main.6430e344.css",
-    "main.js": "/github.io/react-portfolio/static/js/main.cda6a452.js",
-    "static/media/moon.png": "/github.io/react-portfolio/static/media/moon.13f1278169b33644da61.png",
-    "static/media/avatar.png": "/github.io/react-portfolio/static/media/avatar.cb9bc3a0311a9834bc03.png",
-    "static/media/Aleksandr_Riabov_CV.pdf": "/github.io/react-portfolio/static/media/Aleksandr_Riabov_CV.3eee16647a312a8f44d6.pdf",
-    "static/media/nodeJs.png": "/github.io/react-portfolio/static/media/nodeJs.e71346fe0fec16ec5f6e.png",
-    "static/media/jestIcon.png": "/github.io/react-portfolio/static/media/jestIcon.9ae7741b33344583179d.png",
-    "static/media/js.png": "/github.io/react-portfolio/static/media/js.5761b2914c49aa261978.png",
-    "static/media/reactIcon.png": "/github.io/react-portfolio/static/media/reactIcon.b90f3ba070287e24c74b.png",
-    "static/media/mongoDB.png": "/github.io/react-portfolio/static/media/mongoDB.909c449de1a2e13f24cb.png",
-    "index.html": "/github.io/react-portfolio/index.html",
-    "main.6430e344.css.map": "/github.io/react-portfolio/static/css/main.6430e344.css.map",
-    "main.cda6a452.js.map": "/github.io/react-portfolio/static/js/main.cda6a452.js.map"
+    "main.css": "/react-portfolio/static/css/main.ff0e4492.css",
+    "main.js": "/react-portfolio/static/js/main.355a1ea7.js",
+    "static/media/moon.png": "/react-portfolio/static/media/moon.13f1278169b33644da61.png",
+    "static/media/avatar.png": "/react-portfolio/static/media/avatar.cb9bc3a0311a9834bc03.png",
+    "static/media/Aleksandr_Riabov_CV.pdf": "/react-portfolio/static/media/Aleksandr_Riabov_CV.3eee16647a312a8f44d6.pdf",
+    "static/media/nodeJs.png": "/react-portfolio/static/media/nodeJs.e71346fe0fec16ec5f6e.png",
+    "static/media/jestIcon.png": "/react-portfolio/static/media/jestIcon.9ae7741b33344583179d.png",
+    "static/media/js.png": "/react-portfolio/static/media/js.5761b2914c49aa261978.png",
+    "static/media/reactIcon.png": "/react-portfolio/static/media/reactIcon.b90f3ba070287e24c74b.png",
+    "static/media/mongoDB.png": "/react-portfolio/static/media/mongoDB.909c449de1a2e13f24cb.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.ff0e4492.css.map": "/react-portfolio/static/css/main.ff0e4492.css.map",
+    "main.355a1ea7.js.map": "/react-portfolio/static/js/main.355a1ea7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6430e344.css",
-    "static/js/main.cda6a452.js"
+    "static/css/main.ff0e4492.css",
+    "static/js/main.355a1ea7.js"
   ]
 }
