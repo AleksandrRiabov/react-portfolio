@@ -12,7 +12,6 @@ Welcome to my personal portfolio website! This is a SPA (Single Page Application
 
 On the portfolio page, you can find more information about me, including my education and work experience. You can also download my resume and see some of my recent projects. Additionally, there is a contact form for you to get in touch with me.
 
-:point_right: [Go to Portfolio web page](https://aleksandrriabov.github.io/portfolio/#/portfolio/) :point_left:
 
 ## Features
 - Personal information and resume
