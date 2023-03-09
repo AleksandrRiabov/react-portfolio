@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9c90a05.css",
+    "main.js": "/static/js/main.e469a552.js",
+    "static/media/moon.png": "/static/media/moon.13f1278169b33644da61.png",
+    "static/media/avatar.png": "/static/media/avatar.cb9bc3a0311a9834bc03.png",
+    "static/media/Aleksandr_Riabov_CV.pdf": "/static/media/Aleksandr_Riabov_CV.3eee16647a312a8f44d6.pdf",
+    "static/media/nodeJs.png": "/static/media/nodeJs.e71346fe0fec16ec5f6e.png",
+    "static/media/jestIcon.png": "/static/media/jestIcon.9ae7741b33344583179d.png",
+    "static/media/js.png": "/static/media/js.5761b2914c49aa261978.png",
+    "static/media/reactIcon.png": "/static/media/reactIcon.b90f3ba070287e24c74b.png",
+    "static/media/mongoDB.png": "/static/media/mongoDB.909c449de1a2e13f24cb.png",
+    "index.html": "/index.html",
+    "main.c9c90a05.css.map": "/static/css/main.c9c90a05.css.map",
+    "main.e469a552.js.map": "/static/js/main.e469a552.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9c90a05.css",
+    "static/js/main.e469a552.js"
+  ]
+}
