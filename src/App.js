@@ -1,4 +1,4 @@
-import { createBrowserRouter, createRoutesFromElements, RouterProvider, Outlet, Route } from "react-router-dom";
+import { createHashRouter, createRoutesFromElements, RouterProvider, Outlet, Route } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
@@ -9,14 +9,14 @@ import Project from "./pages/Project";
 
 
 const App = () => {
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route path="/" index element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/project/:id" element={<Project />} />
         <Route path="/contact" element={<ContactPage />} />
-
+        <Route path="/contact" element={<ContactPage />} />
 
         <Route path='*' element={<NotFound />} />
       </Route>
