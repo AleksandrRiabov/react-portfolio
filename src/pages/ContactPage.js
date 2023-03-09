@@ -24,7 +24,6 @@ const ContactPage = () => {
     setForm(initialState);
   }
 
-  
   const handleChange = e => {
     setForm({ ...form, [e.target.name]: e.target.value })
   }
