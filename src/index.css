@@ -424,14 +424,29 @@ code {
 .footer {
   background-color: var(--dark-color);
   z-index: 5;
-  padding: 40px 0 20px;
+  padding-bottom:  20px;
 }
 
-.footer-link {
-  text-align: center;
+.footer-social-links  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 5px 30px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.footer-social-links a {
+  font-size: 2rem;
   color: var(--light-color);
 }
 
-.footer-bottom {
-  margin-top: 40px;
+.footer-social-links a:hover {
+  font-size: 2rem;
+  color: var(--light-color);
 }
+
+
+
